@@ -5,3 +5,5 @@ O resultado final de um código em TypeScript precisa ser convertido e traduzido
 
 O TypeScript ajuda a prever erros que possam acontecer no futuro, por ser um código mais simples.
 É um código tipado.
+
+tsc src/script.ts --outDir public  - Compilar o Código em TS para JS e criar na pasta public

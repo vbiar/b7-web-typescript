@@ -4,11 +4,11 @@ let btnCalculate = document.getElementById('calculate');
 let res = document.getElementById('result');
 
 
-function calculate (n1, n2) {
+function calculate (n1: number, n2: number) {
 
         return n1 + n2;
 };
 
 btnCalculate.addEventListener('click', function() {
-    res.innerHTML = calculate(numero1.value, numero2.value);
+    res.innerHTML = calculate( parseFloat(numero1.value), parseFloat(numero2.value)).toString();
 });
