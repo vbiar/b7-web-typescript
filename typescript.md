@@ -18,3 +18,12 @@ let nome: string = 'Vitor';
 let idade: number = 30;
 
 Não há necessidade de atribuir tipagem a todo momento, apenas em situações mais delicadas em que o comportamento de um determinado elemento seja mais delicado de se lidar
+
+Em arrays é possível tipar toda a variável ou os elementos do array individualmente
+
+Para tipar um array:
+
+tipo[]
+
+ex: 
+let nomes: string[] = ['Vitor', 'Pedro', 'Joao', 'Maria'];
