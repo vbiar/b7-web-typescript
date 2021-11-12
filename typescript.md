@@ -32,3 +32,9 @@ let nomes: string[] = ['Vitor', 'Pedro', 'Joao', 'Maria'];
 Type Any
 
 Utilizado quando você quer sobrescrever a tipagem do TS, permitando a inclusão de diferentes tipos dentro da variável. Ou seja, o TS irá ignorar a verificação de tipagem para essa variável em específico.
+
+Para tipagem de função é possível definar a tipagem tanto dos parâmetros que a função recebe, assim como a função como um todo.
+
+ex:
+
+function firstLetterUpperCase(name: string): string {}
