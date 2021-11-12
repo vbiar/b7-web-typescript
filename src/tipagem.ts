@@ -19,3 +19,8 @@ let numeros: Array<number> = [15, 23, 54, 32]; // Outra forma menos comum de tip
 let condicoes: boolean[] = [true, false, false, true];
 
 
+// Type Any
+
+let nomes2: any = ['Vitor', 'Pedro', 'Joao', 'Maria'];
+
+nomes2.push(443);

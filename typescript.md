@@ -27,3 +27,8 @@ tipo[]
 
 ex: 
 let nomes: string[] = ['Vitor', 'Pedro', 'Joao', 'Maria'];
+
+
+Type Any
+
+Utilizado quando você quer sobrescrever a tipagem do TS, permitando a inclusão de diferentes tipos dentro da variável. Ou seja, o TS irá ignorar a verificação de tipagem para essa variável em específico.
