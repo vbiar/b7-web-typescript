@@ -40,3 +40,5 @@ ex:
 function firstLetterUpperCase(name: string): string {}
 
 Sempre que uma função recebe propriedades de um objeto, é recomendado discernir os tipos no uso para evitar erros
+
+Colocar uma interrogação (?) antes da definição de tipo da variável faz com que ela se torne opcional
