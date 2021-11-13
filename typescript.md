@@ -48,3 +48,9 @@ Para multiplos tipos possíveis (ou um ou outro) em uma variável utilizar | par
 ex: 
 
 let idade: string | number = 30
+
+Quando utilizando tipos próprios se utiliza o padrão Pascal Case (primeira letra de cada palavra maiúsucla)
+
+Tipos próprios são utilizados para simplifcar e organizar melhor o código (geralmente com objetos) e quando o tipo é replicável em outros locais do código
+
+Diferença entre Type e Interface: o Type não é alterável uma vez criado (não é possível adicionar propriedades novas), já com o Interface é possível fazer alterações futuras
