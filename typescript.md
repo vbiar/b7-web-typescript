@@ -38,3 +38,5 @@ Para tipagem de função é possível definar a tipagem tanto dos parâmetros qu
 ex:
 
 function firstLetterUpperCase(name: string): string {}
+
+Sempre que uma função recebe propriedades de um objeto, é recomendado discernir os tipos no uso para evitar erros
